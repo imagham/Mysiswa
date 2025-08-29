@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_dasar/login_page/home.dart';
 import 'package:flutter_dasar/login_page/login.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:lottie/lottie.dart';
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
             ),
           ],
         ),
-        nextScreen: const Login(),
+        nextScreen: homepage1(username: AutofillHints.username,),
         splashIconSize: 100,
         backgroundColor: Colors.white,
       ),
