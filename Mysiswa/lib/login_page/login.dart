@@ -46,8 +46,8 @@ class _LoginState extends State<Login> {
               const Padding(
                 padding: EdgeInsets.all(25),
                 child: Text(
-                  "LOGIN ke akun anda",
-                  style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
+                  "Login ke Akun Anda",
+                  style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
                 ),
               ),
               // Username
